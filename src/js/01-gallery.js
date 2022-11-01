@@ -1,8 +1,7 @@
-// Add imports above this line
+
 import { galleryItems } from './gallery-items';
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
-// Change code below this line
 const divEL =  document.querySelector(".gallery");
 function addImg(img) {
   img.map(el => divEL.insertAdjacentHTML('afterbegin',`
